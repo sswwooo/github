@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <!-- header -->
     <header>
@@ -17,7 +20,7 @@
                     <div>
                         <a href="#"><img src="./img/svg.svg" alt=""></a>
                     </div>
-                    <ul>
+                    <ul class="ul">
                         <li><a href="#">Biz haqimizda</a></li>
                         <li><a href="#">Kurslar</a></li>
                         <li><a href="#">Yangiliklar</a></li>
@@ -41,7 +44,15 @@
                     </h1>
                 </div>
                 <div class="hero-img">
-                    <div class="img"></div>
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./img/bola.png" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/qiz.jpeg" alt=""></div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="one">
@@ -53,7 +64,6 @@
                 <p>Respublika bo'ylab 29 ta filial</p>
             </div>
             <button class="button">Kursga yozilish</button>
-        </div>
     </section>
     <!-- main -->
     <main>
@@ -72,7 +82,7 @@
                                 <p>August 21, 2023</p>
                             </div>
                             <p>Ularning “O'QISH”
-                            so'ziga allergiyasi bor!
+                                so'ziga allergiyasi bor!
                             </p>
                         </div>
                         <div class="card">
@@ -160,24 +170,26 @@
                         <img src="./img/girl.png" alt="">
                     </div>
                     <div class="about-info">
-                        <h2 class="info-title">Registon o'quv markazi 
+                        <h2 class="info-title">Registon o'quv markazi
                             haqida</h2>
-                        <p class="info-text">“REGISTON” o'quv markazi 2014-yilda tashkil topgan. Bosh ofisimiz Yakkasaroy
-                            tumanida joylashgan. Sifatli ta'lim, natijaviylik, mas'uliyatlilik. Avval tarbiya, keyin ta'lim.</p>
-                            <div class="about-num">
-                                <div id="uno">
-                                    <h2>29</h2>
-                                    <p>filiallar</p>
-                                </div>
-                                <div id="dos">
-                                    <h2>40k +</h2>
-                                    <p>bitiruvchilar</p>
-                                </div>
-                                <div id="tres">
-                                    <h2>900 +</h2>
-                                    <p>jamoa a'zosi</p>
-                                </div>
+                        <p class="info-text">“REGISTON” o'quv markazi 2014-yilda tashkil topgan. Bosh ofisimiz
+                            Yakkasaroy
+                            tumanida joylashgan. Sifatli ta'lim, natijaviylik, mas'uliyatlilik. Avval tarbiya, keyin
+                            ta'lim.</p>
+                        <div class="about-num">
+                            <div id="uno">
+                                <h2>29</h2>
+                                <p>filiallar</p>
                             </div>
+                            <div id="dos">
+                                <h2>40k +</h2>
+                                <p>bitiruvchilar</p>
+                            </div>
+                            <div id="tres">
+                                <h2>900 +</h2>
+                                <p>jamoa a'zosi</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -241,18 +253,93 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section id="ground">
             <div class="container">
                 <div class="price">
                     <div class="price-info">
                         <h4>Hududlar bo'yicha
                             (2023-2024 o'quv yili uchun)</h4>
-                        <h2></h2>
+                        <h2>Kurslar uchun to'lovlar</h2>
                     </div>
                     <div class="price-cards">
-                        <div class="card">
-
+                        <div class="price-card">
+                            <h4>Toshkent shahri</h4>
+                            <hr class="hr">
+                            <ul class="card-list">
+                                <li>IELTS — 780 000</li>
+                                <li>General english — 650000</li>
+                                <li>Fan kurslari — 620 000</li>
+                                <li>Til kurslari — 520 000</li>
+                                <li>Kids English — 520 000</li>
+                                <li><button class="button">Yozilish</button></li>
+                            </ul>
                         </div>
+                        <div class="price-card">
+                            <h4>Viloyat markazlari</h4>
+                            <hr class="hr">
+                            <ul class="card-list">
+                                <li>IELTS — 455 000</li>
+                                <li>General english — 390 000</li>
+                                <li>Fan kurslari — 325 000</li>
+                                <li>Til kurslari — 325 000</li>
+                                <li>Kids English — 299 000</li>
+                                <li><button class="button">Yozilish</button></li>
+                            </ul>
+                        </div>
+                        <div class="price-card">
+                            <h4>Shahar tumanlari</h4>
+                            <hr class="hr">
+                            <ul class="card-list">
+                                <li>IELTS — 390 000</li>
+                                <li>General english — 325 000</li>
+                                <li>Fan kurslari — 325 000</li>
+                                <li>Til kurslari — 325 000</li>
+                                <li>Kids English — 221 000</li>
+                                <li><button class="button">Yozilish</button></li>
+                            </ul>
+                        </div>
+                        <div class="price-card">
+                            <h4>Qishloq tumanlari</h4>
+                            <hr class="hr">
+                            <ul class="card-list">
+                                <li>IELTS — 325 000</li>
+                                <li>General english — 260 000</li>
+                                <li>Fan kurslari — 260 00</li>
+                                <li>Til kurslari —260 000</li>
+                                <li>Kids English — 221 000</li>
+                                <li><button class="button">Yozilish</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sec">
+            <!-- <div class="container"> -->
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swipe"><img src="./img/edu.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/faktor.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/idp.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/najot.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/oliy.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/person.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/talim.png" alt=""></div>
+                    <div class="swiper-slide swipe"><img src="./img/world.png" alt=""></div>
+                </div>
+            </div>
+            <!-- </div> -->
+        </section>
+        <section id="last">
+            <div class="container">
+                <div class="reg">
+                    <div class="reg-info">
+                        <h4>Malakali ustozlardan ta'lim oling</h4>
+                        <h2>Kurslarga yoziling</h2>
+                    </div>
+                    <div class="go">
+                        <p>Ro'yxatdan o'tish</p>
                     </div>
                 </div>
             </div>
@@ -260,6 +347,9 @@
     </main>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="./main.js"></script>
 </body>
+
 </html>

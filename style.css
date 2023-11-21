@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=DM+Serif+Display&family=Fraunces:opsz@9..144&family=Kanit&family=Montserrat&family=Mooli&family=Plus+Jakarta+Sans&family=Poppins&family=Roboto:wght@400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -23,24 +24,26 @@ nav {
     padding-bottom: 30px;
 }
 
-ul {
+.ul {
     display: flex;
     align-items: center;
     gap: 27.42px;
     list-style: none;
 }
 
-ul li a {
+.ul li a {
     text-decoration: none;
     color: #000;
     font-family: "Montserrat";
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
-    line-height: 34.2px; /* 180% */
+    line-height: 34.2px;
+    /* 180% */
     transition: all ease 1s;
 }
-ul li a:hover {
+
+.ul li a:hover {
     color: #FF4D00;
 }
 
@@ -52,7 +55,8 @@ ul li a:hover {
     font-size: 19px;
     font-style: normal;
     font-weight: 700;
-    line-height: 22.8px; /* 120% */
+    line-height: 22.8px;
+    /* 120% */
     text-transform: capitalize;
     border-radius: 40px;
     background: linear-gradient(90deg, #FF4D00 0%, #FF9365 100%);
@@ -68,7 +72,7 @@ ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    /* justify-content: space-between; */
 }
 
 #bg {
@@ -77,34 +81,37 @@ ul li a:hover {
 }
 
 .hero-info h1 {
-    width: 600px;
+    width: 500px;
     color: #000;
     font-family: "Montserrat", bold;
-    font-size: 50px;
+    font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    line-height: 76.8px; /* 120% */
+    line-height: 76.8px;
+    /* 120% */
 }
 
-.img {
+/* .img {
     height: 560px;
     width: 410px;
     border-radius: 200px;
     background-color: #6e6e6e;
-}
+} */
 
-#one, #two {
+#one,
+#two {
     display: flex;
     align-items: center;
     gap: 3px;
-    /* margin-left: 250px; */
     color: #262626;
     font-family: "Montserrat";
     font-size: 20px;
-    padding-top:20px;
+    padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 150% */
+    line-height: 30px;
+    /* 150% */
+    margin-top: 15px;
 }
 
 .bx {
@@ -113,8 +120,6 @@ ul li a:hover {
 }
 
 .button {
-    /* margin-left: 230px; */
-    padding-top: 80px;
     padding: 14.6px 40px;
     border-radius: 40px;
     background: #E84E10;
@@ -127,11 +132,13 @@ ul li a:hover {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 19.2px; /* 120% */
+    line-height: 19.2px;
+    /* 120% */
     text-transform: capitalize;
     transition: all ease 1s;
-    margin-top: 20px;
+    margin-top: 50px;
 }
+
 .button:hover {
     background: #2A3290;
 }
@@ -145,33 +152,37 @@ ul li a:hover {
     margin-top: 58px;
 }
 
-.card-one, .card-two, .card-three, .card-four {
-    width:250px;
+.card-one,
+.card-two,
+.card-three,
+.card-four {
+    width: 250px;
 }
 
-.card{
+.card {
     width: 250px;
     height: 612px;
 }
 
-.card-img{
+.card-img {
     width: 100%;
 }
 
-.card-info{
+.card-info {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.card p{
+.card p {
     color: #000;
     font-family: "Montserrat";
     padding-top: 10px;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: 31.2px; /* 120% */
+    line-height: 31.2px;
+    /* 120% */
 }
 
 .cards h3 {
@@ -180,7 +191,8 @@ ul li a:hover {
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
-    line-height: 31.2px; /* 120% */
+    line-height: 31.2px;
+    /* 120% */
     width: 282px;
 }
 
@@ -190,13 +202,14 @@ ul li a:hover {
     font-size: 26px;
     font-style: normal;
     font-weight: 600;
-    line-height: 31.2px; /* 120% */
+    line-height: 31.2px;
+    /* 120% */
     width: 282px;
 }
 
 .image {
-  width: 250px;
-  height: 200px;
+    width: 250px;
+    height: 200px;
 }
 
 .info {
@@ -208,10 +221,14 @@ ul li a:hover {
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 34.2px; /* 190% */
+    line-height: 34.2px;
+    /* 190% */
 }
 
-#a, #b, #c, #d {
+#a,
+#b,
+#c,
+#d {
     font-size: 24px;
     color: #000;
 }
@@ -223,8 +240,9 @@ ul li a:hover {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 43.2px; /* 180% */
-} 
+    line-height: 43.2px;
+    /* 180% */
+}
 
 .news h2 {
     color: #000;
@@ -269,7 +287,8 @@ ul li a:hover {
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; /* 120% */
+    line-height: 36px;
+    /* 120% */
     /* margin-left: 430px; */
 }
 
@@ -283,7 +302,8 @@ ul li a:hover {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28.8px; /* 120% */
+    line-height: 28.8px;
+    /* 120% */
     padding-top: 50px;
 }
 
@@ -314,11 +334,13 @@ ul li a:hover {
     margin-top: 40px;
 }
 
-#uno, #dos, #tres {
+#uno,
+#dos,
+#tres {
     padding-right: 60px;
     border-right: 1px solid #ECC6C2;
     color: #000;
-    font-family:"Montserrat";
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     line-height: 50px;
@@ -331,7 +353,8 @@ ul li a:hover {
     font-size: 38px;
     font-style: normal;
     font-weight: 600;
-    line-height: 72px; /* 120% */
+    line-height: 72px;
+    /* 120% */
     width: 680px;
 }
 
@@ -341,7 +364,8 @@ ul li a:hover {
     font-size: 13px;
     font-style: normal;
     font-weight: 300;
-    line-height: 28px; /* 190% */
+    line-height: 28px;
+    /* 190% */
     width: 650px;
 }
 
@@ -374,7 +398,8 @@ ul li a:hover {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 28.8px; /* 120% */
+    line-height: 28.8px;
+    /* 120% */
     letter-spacing: 1.2px;
 }
 
@@ -385,10 +410,12 @@ ul li a:hover {
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
-    line-height: 72px; /* 120% */
+    line-height: 72px;
+    /* 120% */
 }
 
-.div-two, .div-three {
+.div-two,
+.div-three {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -397,4 +424,183 @@ ul li a:hover {
 
 .div-one p {
     margin-top: 15px;
+}
+
+.swiper {
+    width: 350px;
+    height: 500px;
+}
+
+.swiper-slide img {
+    width: 350px;
+    height: 480px;
+    border-radius: 200px;
+}
+
+.card-list {
+    list-style: none;
+    color: #666;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    /* 100% */
+    margin-top: 39px;
+}
+
+.price-card h4 {
+    text-align: center;
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    /* 120% */
+    margin-top: 59px;
+}
+
+.price-card {
+    height: 528px;
+    width: 310px;
+    border-top: 10px solid #E84E10;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+.price-cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 51px;
+    padding-bottom: 160px;
+}
+
+#ground {
+    background: #DDF5DB;
+    margin-top: 140px;
+}
+
+.hr {
+    padding-top: 32px;
+    margin-left: 20px;
+    width: 200px;
+    height: 2px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #E84E10;
+}
+
+.price-info h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    /* 120% */
+}
+
+.price-info h4 {
+    color: #E84E10;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+    /* 120% */
+    letter-spacing: 1.2px;
+}
+
+.price-info {
+    padding-top: 159px;
+}
+
+/* .mySwiper {
+    width: 100%;
+    height: 100%;
+}
+    
+.Swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.Swiper-slide img {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+} */
+
+#sec {
+    background: #F3E4D1;
+    height: 200px;
+    margin-top: 150px;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.swipe img {
+    width: 230px;
+    height: 90px;
+}
+
+#last {
+    width: 1220px;
+    height: 265px;
+    border-radius: 30px;
+    background: #93E9C1;
+    margin-left: 30px;
+    margin-top: 150px;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    padding-top: 80px;
+}
+
+.reg-info h2 {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+}
+
+.reg-info h4 {
+    color: #E84E10;
+    font-family: "Kanit";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31.2px;
+}
+
+.go p {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 18px;
+    cursor: pointer;
+    border: 3px dotted #E84E10;
+    border-radius: 50%; 
+    padding: 25px 30px;
 }
